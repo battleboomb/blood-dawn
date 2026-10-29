@@ -1,0 +1,24 @@
+# Godot 4+ 가 자동으로 만드는 폴더 (가져오기 캐시, 에디터 설정)
+.godot/
+/android/
+
+# 내보내기(Export) 결과물: 웹·PC 빌드
+/web_build*/
+/build/
+/builds/
+/export/
+/exports/
+*.pck
+*.wasm
+*.exe
+*.zip
+
+# 외부 도구: sprite-gen 스킬(github.com/aldegad/sprite-gen 에서 따로 받음)과 파이썬 가상환경
+.claude/skills/sprite-gen/
+.venv/
+__pycache__/
+
+# 운영체제가 만드는 파일
+Thumbs.db
+desktop.ini
+.DS_Store

@@ -1,0 +1,11 @@
+{
+  "version": "0.0.1",
+  "configurations": [
+    {
+      "name": "hero-curation",
+      "runtimeExecutable": ".claude/skills/sprite-gen/.venv/Scripts/sprite-gen.exe",
+      "runtimeArgs": ["curation", "--run-dir", "assets/imgs/hero", "--port", "8765", "--no-open", "--lang", "ko"],
+      "port": 8765
+    }
+  ]
+}
